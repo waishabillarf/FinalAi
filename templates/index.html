@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Real-Time Facial Expression Recognition</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <main class="container">
+        <h1>Deteksi Ekspresi Wajah</h1>
+        <div class="camera-wrapper">
+            <img src="{{ url_for('video') }}" id="video-feed" alt="Live camera feed">
+        </div>
+    </main>
+</body>
+</html>
